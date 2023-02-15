@@ -1,0 +1,44 @@
+@use "src/resources/variables";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: black 1px solid;
+  align-items: center;
+
+  .nameTitleContainer {
+    display: flex;
+    flex-direction: column;
+
+    .name {
+      font-weight: bold;
+      font-size: 48px;
+      color: variables.$font-primary;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+      color: variables.$font-secondary;
+    }
+  }
+
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+
+    .contactItem {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: right;
+      margin: 1px;
+    }
+
+    .contactItemText {
+      margin-right: 5px;
+    }
+  }
+}
