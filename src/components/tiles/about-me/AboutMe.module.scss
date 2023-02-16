@@ -1,0 +1,28 @@
+.aboutMeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .aboutMeMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .aboutMeImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .profilePic {
+    height: 250px;
+    justify-self: center;
+  }
+}

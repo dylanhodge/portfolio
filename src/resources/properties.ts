@@ -11,9 +11,9 @@ const properties = {
             "on cloud security, front end, back end, AWS, and CI-CD related projects and tasks. On these teams, I have " +
             "developed proficiency and expertise in Python, JavaScript & TypeScript, Java, ReactJS, Spring Boot, Git, " +
             "Github Actions, Jenkins, and Amazon Web Services. Outside of work, I enjoy expanding my repertoire through " +
-            "the online learning platform Udemy and developing my own personal projects. Currently I am trying to " +
-            "teach myself machine learning and game development with Unity. Below you can find a detailed description " +
-            "of personal projects I have created over the years. Enjoy!"
+            "the online learning platforms Udemy and Coursera and developing my own personal projects. Currently I am " +
+            "trying to teach myself machine learning and game development with Unity. Below you can find a detailed " +
+            "description of personal projects I have created over the years. Enjoy!"
     },
     skills: [
         {
