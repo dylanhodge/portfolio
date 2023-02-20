@@ -1,4 +1,28 @@
-const properties = {
+type Skill = {
+    skill: string,
+    level: 1 | 2 | 3 | 4 | 5
+};
+
+type Certification = {
+    name: string,
+    link: string
+}
+
+type Properties = {
+    name: string,
+    title: string,
+    company: string,
+    email: string,
+    linkedIn: string,
+    github: string,
+    messages: {
+        welcome: string
+    },
+    skills: Skill[],
+    certifications: Certification[]
+};
+
+const properties: Properties = {
     name: "Dylan Hodge",
     title: "Software Engineer",
     company: "John Deere",
@@ -87,6 +111,12 @@ const properties = {
         {
             skill: "Agile",
             level: 5
+        }
+    ],
+    certifications: [
+        {
+            name: "Nielsen-Norman UI Certificate",
+            link: ""
         }
     ]
 };

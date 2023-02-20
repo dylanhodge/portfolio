@@ -1,0 +1,21 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+
+  .skillContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+    margin: 2px 20px;
+
+    .skillBubbles {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
