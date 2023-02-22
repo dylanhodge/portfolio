@@ -1,16 +1,26 @@
-.skillsAndCerts {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 200px;
+.app {
+  height: 100%;
 
-  .skills {
-    width: 50%;
+  .skillsAndCertsTable {
+    display: table;
     height: 100%;
-  }
 
-  .certs {
-    width: 50%;
-    height: 100%;
+    .skillsAndCerts {
+      display: table-row;
+      width: 100%;
+      height: 100%;
+
+      .skills {
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+      }
+
+      .certs {
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+      }
+    }
   }
 }

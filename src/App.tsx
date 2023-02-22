@@ -5,21 +5,27 @@ import {Header} from "./components/header/Header";
 import {AboutMe} from "./components/tiles/about-me/AboutMe";
 import {Skills} from "./components/tiles/skills/Skills";
 import {Certifications} from "./components/tiles/certifications/Certifications";
+import {WorkExperience} from "./components/tiles/work-experience/WorkExperience";
 
-function App() {
+const App = (): JSX.Element => {
     return (
-        <Container>
-            <Header/>
-            <AboutMe/>
-            <div className={styles.skillsAndCerts}>
-                <div className={styles.skills}>
-                    <Skills/>
+        <div className={styles.app}>
+            <Container>
+                <Header/>
+                <AboutMe/>
+                <div className={styles.skillsAndCertsTable}>
+                    <div className={styles.skillsAndCerts}>
+                        <div className={styles.skills}>
+                            <Skills/>
+                        </div>
+                        <div className={styles.certs}>
+                            <Certifications/>
+                        </div>
+                    </div>
                 </div>
-                <div className={styles.certs}>
-                    <Certifications/>
-                </div>
-            </div>
-        </Container>
+                <WorkExperience/>
+            </Container>
+        </div>
     );
 }
 

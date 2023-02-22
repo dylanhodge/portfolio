@@ -1,15 +1,14 @@
 @use "src/resources/variables";
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
+    text-align: center;
+    margin: 0;
     background-color: variables.$bg-tertiary;
     padding: 10px 20px;
     border: 2px solid variables.$border-color;
     border-radius: 20px;
     height: 100%;
+    box-sizing: border-box;
 
     .title {
         font-size: 30px;
